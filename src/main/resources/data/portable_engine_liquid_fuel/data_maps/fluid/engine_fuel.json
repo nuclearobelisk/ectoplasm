@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": {
+    "#c:ectoplasm": {
+      "burn_time": 24000
+    },
+    "ectoplasm:ectoplasm": {
+      "burn_time": 24000
+    }
+  }
+}

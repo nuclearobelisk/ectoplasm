@@ -1,0 +1,13 @@
+{
+  "values": {
+    "ectoplasm:ecto_gland": {
+      "burn_time": 400
+    },
+    "ectoplasm:ectoplasm_bucket": {
+      "burn_time": 24000
+    },
+    "minecraft:phantom_membrane": {
+      "burn_time": 1600
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.1,
+      "id": "ectoplasm:ecto_gland"
+    }
+  ]
+}

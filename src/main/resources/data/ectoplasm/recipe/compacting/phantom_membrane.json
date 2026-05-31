@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "ectoplasm:ecto_gland"
+    },
+    {
+      "item": "ectoplasm:ecto_gland"
+    },
+    {
+      "item": "ectoplasm:ecto_gland"
+    },
+    {
+      "item": "ectoplasm:ecto_gland"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:phantom_membrane"
+    }
+  ]
+}

@@ -1,25 +1,27 @@
+# Ectoplasm
 
-Installation information
-=======
+Create mod addon that adds Ectoplasm as a liquid fuel source.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Features
+###  ![image](src/main/resources/assets/ectoplasm/textures/item/ecto_gland.png) Ecto Gland
+Ghost-like mobs drop Ecto Glands. By default, the following mobs drop Ecto Glands:
+* Allays
+* Vexes
+* Strays
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+In addition to mob sources, Ecto Glands can be crafted by breaking down Phantom Membranes (which drop as normal from Phantoms), yielding 4 Ecto Glands per Phantom Membrane. Rotten Flesh can be haunted for a small chance to yield an Ecto Gland.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+The mod provides a Create cutting recipe to break down Phantom Membranes, as well as a compacting recipe for its inverse.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### ![image](src/main/resources/assets/ectoplasm/textures/item/ectoplasm_bucket.png) Ectoplasm
+Ectoplasm is a liquid fuel source which burns for 30000 ticks per 1000mB by default.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+It can be created by heating a mixture of 4 Ecto Glands and 1000mB of water, for a yield of 250mB of Ectoplasm.
+
+### Bucket of Ectoplasm
+Ectoplasm can be bucketed and used as a fuel source by fuel-accepting blocks, such as Furnaces, Blaze Burners, and Portable Engines (if Create Aeronautics is also installed).
+
+## Compatibility
+Ectoplasm has inherent compatibility with [Create: Liquid Fuel](https://modrinth.com/mod/create-liquid-fuel) and [Create Aeronautics: Portable Engine Liquid Fuel](https://modrinth.com/mod/create-aeronautics-portable-engine-liquid-fuel).
+
+With these mods installed, Ectoplasm in its liquid form can be piped directly into Blaze Burners and Portable Engines.

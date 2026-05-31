@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "ectoplasm:ectoplasm"
+    }
+  ],
+  "results": [
+    {
+      "id": "ectoplasm:ecto_gland"
+    }
+  ]
+}
