@@ -14,7 +14,7 @@ In addition to mob sources, Ecto Glands can be crafted by breaking down Phantom 
 The mod provides a Create cutting recipe to break down Phantom Membranes, as well as a compacting recipe for its inverse.
 
 ### ![image](src/main/resources/assets/ectoplasm/textures/item/ectoplasm_bucket.png) Ectoplasm
-Ectoplasm is a liquid fuel source which burns for 30000 ticks per 1000mB by default.
+Ectoplasm is a liquid fuel source which burns for 24000 ticks per 1000mB by default.
 
 It can be created by heating a mixture of 4 Ecto Glands and 1000mB of water, for a yield of 250mB of Ectoplasm.
 
